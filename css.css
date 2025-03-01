@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('backg_thick.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.frame {
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    color: lightblue;
+    background-color: darkblue;
+    padding: 20px;
+    margin: 0;
+}
+
+#sticky-menu {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+#sticky-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#sticky-menu li {
+    margin: 0 15px;
+}
+
+#sticky-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+#sticky-menu a:hover {
+    color: #000;
+    font-weight: bold;
+}
